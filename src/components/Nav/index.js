@@ -1,11 +1,11 @@
 
-function Nav() {
+function Nav({ changePage }) {
     return (
         <div>
-            <h2>About Me</h2>
-            <h2>Portfolio</h2>
-            <h2>Contact Me</h2>
-            <h2>Resume</h2>
+            <h2 onClick={() => changePage('About')}>About Me</h2>
+            <h2 onClick={() => changePage('Portfolio')}>Portfolio</h2>
+            <h2 onClick={() => changePage('Contact')}>Contact Me</h2>
+            <h2 onClick={() => changePage('Resume')}>Resume</h2>
         </div>
     )
 }  
