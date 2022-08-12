@@ -24,10 +24,10 @@ function App() {
 
     return (
         <div>
-            <Header setCurrentPage={setCurrentPage} />
             <div>
-            {renderPage()}
+                <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </div>
+            {renderPage()}
             <Footer />
         </div>
 

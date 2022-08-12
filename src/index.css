@@ -23,3 +23,29 @@ footer {
     right:0;;
 }
 
+.navbar {
+    font-size: 1.2rem !important;
+    color: var(--powder) !important;
+    font-weight: bold;
+    margin: auto;
+}
+
+.active-nav {
+    border-top: 5px solid var(--jet) !important;
+    border-left: 5px solid !important;
+    border-right: 5px solid !important;
+    background-color: var(--grey);
+}
+
+.margin-top {
+    margin-top: 50px !important;
+}
+
+.image {
+    width: 70px;
+}
+
+.aboutme-text {
+    font-size: 1.3rem;
+}
+

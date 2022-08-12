@@ -1,13 +1,13 @@
 import Nav from "../Nav";
 
-function Header({setCurrentPage}) {
+function Header({currentPage, setCurrentPage}) {
     const changePage = (page) => setCurrentPage(page);
 
     return (
-        <header className="">
-            <h1 className="p-4">Andrew Faugno</h1>
+        <header className="w-100">
+            <h1 className="p-4 text-center">Andrew Faugno</h1>
             <div>
-                <Nav changePage={changePage} />
+                <Nav currentPage={currentPage} changePage={changePage} />
             </div>
         </header>
     );
