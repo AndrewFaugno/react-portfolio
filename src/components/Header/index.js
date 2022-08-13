@@ -6,7 +6,7 @@ function Header({currentPage, setCurrentPage}) {
     return (
         <header className="w-100">
             <h1 className="p-4 text-center">Andrew Faugno</h1>
-            <div>
+            <div className="w-75 mx-auto">
                 <Nav currentPage={currentPage} changePage={changePage} />
             </div>
         </header>

@@ -4,7 +4,9 @@ function About() {
             <h3 className='pb-3'>About Me</h3>
             <img 
             className='pb-3 image'
-            src={require('../../assets/images/image-placeholder.png')}></img>
+            src={require('../../assets/images/image-placeholder.png')} 
+            alt="stock profile placeholder"
+            />
             <p className='aboutme-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

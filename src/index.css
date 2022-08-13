@@ -8,6 +8,7 @@
 
 header {
     background-color: var(--vivid) !important;
+    font-family: 'DynaPuff', cursive;
 }
 
 body {
@@ -31,13 +32,13 @@ footer {
     font-size: 1.2rem !important;
     color: var(--powder) !important;
     font-weight: bold;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .active-nav {
-    border-top: 5px solid var(--jet) !important;
+    /* border-top: 5px solid var(--jet) !important;
     border-left: 5px solid !important;
-    border-right: 5px solid !important;
+    border-right: 5px solid !important; */
     background-color: var(--grey);
 }
 
@@ -56,6 +57,8 @@ footer {
 .project-img {
     height: 300px;
     width: 400px;
+    opacity: 1;
+    transition: .5s ease;
 }
 
 .img-wrap {
@@ -92,6 +95,7 @@ footer {
     opacity: .1;
     background-color: #F7F7F2;
     border: 5px solid #A3333D;
+    transition: .5s ease;
 }
 
 

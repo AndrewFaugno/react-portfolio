@@ -3,19 +3,19 @@ function Nav({ currentPage, changePage }) {
     return (
         <div className="d-flex justify-content-center text-center">
             <a href="#About" 
-            className={currentPage === 'About' ? 'navbar nav-link active-nav' : 'navbar nav-link'} 
+            className={currentPage === 'About' ? 'navbar nav-link active-nav rounded-top' : 'navbar nav-link'} 
             onClick={() => changePage('About')}>About Me</a>
 
-            <a href="#" 
-            className={currentPage === 'Portfolio' ? 'navbar nav-link active-nav' : 'navbar nav-link'} 
+            <a href="#Portfolio" 
+            className={currentPage === 'Portfolio' ? 'navbar nav-link active-nav rounded-top' : 'navbar nav-link'} 
             onClick={() => changePage('Portfolio')}>Portfolio</a>
 
-            <a href="#" 
-            className={currentPage === 'Contact' ? 'navbar nav-link active-nav' : 'navbar nav-link'} 
+            <a href="#Contact" 
+            className={currentPage === 'Contact' ? 'navbar nav-link active-nav rounded-top' : 'navbar nav-link'} 
             onClick={() => changePage('Contact')}>Contact Me</a>
 
-            <a href="#" 
-            className={currentPage === 'Resume' ? 'navbar nav-link active-nav' : 'navbar nav-link'} 
+            <a href="#Resume" 
+            className={currentPage === 'Resume' ? 'navbar nav-link active-nav rounded-top' : 'navbar nav-link'} 
             onClick={() => changePage('Resume')}>Resume</a>
 
         </div>
