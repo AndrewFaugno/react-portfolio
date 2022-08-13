@@ -13,14 +13,18 @@ header {
 body {
     background-color: var(--jet) !important;
     color: var(--powder) !important;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    width: 100%;
 }
 
 footer {
     background-color: var(--grey) !important;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .navbar {
@@ -48,4 +52,49 @@ footer {
 .aboutme-text {
     font-size: 1.3rem;
 }
+
+.project-img {
+    height: 300px;
+    width: 400px;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.img-text a {
+    text-decoration: none !important;
+    color: var(--powder);
+    font-weight: bold;
+    font-size: large;
+}
+
+.desc-container {
+    padding-top: 200px;
+}
+
+.img-text {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visbility .2s;
+}
+
+.img-wrap:hover .img-text {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.img-wrap:hover .project-img {
+    opacity: .1;
+    background-color: #F7F7F2;
+    border: 5px solid #A3333D;
+}
+
+
+
+
 
