@@ -1,13 +1,13 @@
 function About() {
     return (
         <div className="m-auto w-75 margin-top">
-            <h3 className='pb-3'>About Me</h3>
+            <h3 className='pb-3 dynapuff'>About Me</h3>
             <img 
-            className='pb-3 image'
+            className='pb-3 about-me-img'
             src={require('../../assets/images/image-placeholder.png')} 
             alt="stock profile placeholder"
             />
-            <p className='aboutme-text'>
+            <p className='aboutme-text quicksand'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Nec dui nunc mattis

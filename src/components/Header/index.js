@@ -4,7 +4,7 @@ function Header({currentPage, setCurrentPage}) {
     const changePage = (page) => setCurrentPage(page);
 
     return (
-        <header className="w-100">
+        <header className="w-100 dynapuff">
             <h1 className="p-4 text-center">Andrew Faugno</h1>
             <div className="w-75 mx-auto">
                 <Nav currentPage={currentPage} changePage={changePage} />

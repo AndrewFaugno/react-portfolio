@@ -45,10 +45,10 @@ function Portfolio() {
     ];
 
     return (
-        <div className="mt-5 mb-5 container">
+        <div className="mt-4 mb-5 container">
             <div className="row">
             {projects.map((project, i) => (
-                <div key={i} className="m-auto pb-4 col-xs-8 img-wrap">
+                <div key={i} className="m-auto pb-4 img-wrap">
                     <div className="img-text d-flex align-middle">
                         <a href={project.websiteLink} target="_blank" className="pr-3 pt-3">{project.name}</a>
                         <a href={project.githubLink} target="_blank">
