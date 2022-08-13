@@ -1,9 +1,9 @@
 function About() {
     return (
         <div className="m-auto w-75 margin-top">
-            <h3 className='pb-3 dynapuff'>About Me</h3>
+            <h3 className='dynapuff'>About Me</h3>
             <img 
-            className='pb-3 about-me-img'
+            className='py-4 about-me-img'
             src={require('../../assets/images/image-placeholder.png')} 
             alt="stock profile placeholder"
             />
