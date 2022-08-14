@@ -6,8 +6,21 @@
     --vivid: #A3333D;
 }
 
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 header {
-    background-color: var(--vivid) !important;
+    height: 30vh;
+    position: relative;
+    background-image: url('./assets/images/backdrop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 0px 10px;
 }
 
 body {
@@ -15,8 +28,8 @@ body {
     color: var(--powder) !important;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 2.5rem;
     width: 100%;
+    margin-bottom: 70px
 }
 
 .dynapuff {
@@ -27,18 +40,39 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.title {
+    font-size: 4vw;
+}
+
 footer {
+    height: 80px;
+    border-radius: 10px 0px;
     background-color: var(--grey) !important;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     right: 0;
 }
 
+.navbar-container {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+
+}
+
 .navbar {
-    font-size: 1.2rem !important;
+    padding: 10px 1.2vw;
+    font-size: 1.8vw;
     color: var(--powder) !important;
+    border-radius: 50px;
     font-weight: bold;
+}
+
+.navbar-container a:hover {
+    color:  #c2c2bc !important;
+    transition: .3s ease !important;
 }
 
 .active-nav {
@@ -50,7 +84,7 @@ footer {
 }
 
 .about-me-img {
-    width: 100px;
+    width: 250px !important;
 }
 
 .aboutme-text {
@@ -61,6 +95,7 @@ footer {
 .project-img {
     height: 300px;
     width: 400px;
+    border-radius: 25px;
     opacity: 1;
     transition: .5s ease;
 }
@@ -102,7 +137,25 @@ footer {
     transition: .5s ease;
 }
 
+@media screen and (max-width: 980px) {
+    header {
+        height: 225px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    header {
+        height: 200px;
+    }
+
+    .title {
+        font-size: 6vw;
+    }
+
+    .navbar {
+        font-size: 3vw;
+    }
+}
 
 
 

@@ -3,7 +3,7 @@ function About() {
         <div className="m-auto w-75 margin-top">
             <h3 className='dynapuff'>About Me</h3>
             <img 
-            className='py-4 about-me-img'
+            className='py-4 about-me-img rounded-circle w-25'
             src={require('../../assets/images/image-placeholder.png')} 
             alt="stock profile placeholder"
             />
