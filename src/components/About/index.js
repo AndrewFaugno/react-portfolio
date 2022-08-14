@@ -3,9 +3,9 @@ function About() {
         <div className="m-auto w-50 aboutme-container">
             <h3 className='dynapuff'>About Me</h3>
             <img 
-            className='py-4 about-me-img rounded-circle w-25'
+            className='my-4 about-me-img rounded-circle w-25'
             src={require('../../assets/images/IMG_4188.JPG')} 
-            alt="stock profile placeholder"
+            alt="andrew faugno skydiving"
             />
             <p className='aboutme-text quicksand'>
                 Hi! My name's Andrew, I'm 21 years old and I'm currently a full-stack web developer!

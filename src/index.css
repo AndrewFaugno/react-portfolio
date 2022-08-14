@@ -32,6 +32,8 @@ body {
     position: relative;
     min-height: 100vh;
     width: 100%;
+    text-shadow: 3px 2px black;
+
 }
 
 body::before {
@@ -44,9 +46,11 @@ body::before {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: .025;
+    opacity: .08;
+}
 
-
+#contact-form {
+    position: relative;
 }
 
 .dynapuff {
@@ -129,8 +133,9 @@ footer {
 }
 
 .about-me-img {
-    width: 225px !important;
-    height: 275px;
+    width: 200px !important;
+    height: 200px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .aboutme-text {
@@ -147,6 +152,7 @@ footer {
     height: 400px;
     width: 550px;
     border-radius: 25px;
+    box-shadow: 10px 10px 5px black;
     opacity: 1;
     transition: .5s ease;
 }
@@ -219,9 +225,15 @@ footer {
     transition: .2s ease;
 }
 
+@media screen and (max-width: 1700px) {
+    header {
+        height: 275px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     header {
-        height: 225px;
+        height: 250px;
     }
 
     .navbar {
@@ -243,8 +255,12 @@ footer {
     }
 
     .about-me-img {
-        width: 100px !important;
-        height: 150px;
+        width: 125px !important;
+        height: 125px;
+    }
+
+    .form-container {
+        width: 80% !important;
     }
 }
 

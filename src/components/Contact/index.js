@@ -29,10 +29,11 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        setErrorMessage('Message has been sent! (jk)')
     }
 
     return (
-        <div className="w-75 m-auto text-center pt-3">
+        <div className="w-50 m-auto text-center pt-3 form-container">
             <div className="w-full">
                 <h3 className='dynapuff'>Contact Me</h3>
             </div>
