@@ -6,6 +6,10 @@
     --vivid: #A3333D;
 }
 
+html {
+    height: 100%;
+}
+
 #root {
     display: flex;
     min-height: 100vh;
@@ -20,7 +24,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    border-radius: 0px 10px;
 }
 
 body {
@@ -29,7 +32,21 @@ body {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 100px
+}
+
+body::before {
+    content: "";
+    background-image: url('./assets//images/vector-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .025;
+
+
 }
 
 .dynapuff {
@@ -45,13 +62,30 @@ body {
 }
 
 footer {
+    width: 100%;
     height: 80px;
     border-radius: 10px 0px;
     background-color: var(--grey) !important;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+.footer-img-container img {
+    width: 64px;
+    height: 64px;
+    margin: 0px 30px;
+    opacity: .65;
+}
+
+.footer-img-container img:hover {
+    opacity: 1;
+    filter: brightness(0%);
+}
+
+.resume-page {
+    font-size: larger;
 }
 
 .resume {
