@@ -12,8 +12,8 @@ function About() {
                 I haven't been coding for too long, but in the last six 
                 months (thanks to UCONN's coding bootcamp!) I've 
                 learned how to create full-stack web applications from scratch!
-                I'm still pushing myself to learn more because I realized how
-                much I enjoy doing this stuff!  
+                I'm still pushing myself to learn more because I realize how
+                much I enjoy doing this!  
             </p>
         </div>
     );
