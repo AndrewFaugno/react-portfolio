@@ -4,7 +4,7 @@ function About() {
             <h3 className='dynapuff'>About Me</h3>
             <img 
             className='my-4 about-me-img rounded-circle w-25'
-            src={require('../../assets/images/IMG_4188.JPG')} 
+            src={require('../../assets/images/skydive-profile.JPG')} 
             alt="andrew faugno skydiving"
             />
             <p className='aboutme-text quicksand'>
