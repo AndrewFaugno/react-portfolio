@@ -124,16 +124,17 @@ footer {
     background-color: #335190;
 }
 
-.margin-top {
+.aboutme-container {
     margin-top: 50px !important;
 }
 
 .about-me-img {
-    width: 150px !important;
+    width: 225px !important;
+    height: 275px;
 }
 
 .aboutme-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 38px;
 }
 
@@ -227,6 +228,11 @@ footer {
         font-size: 2.5vw;
     }
 
+    .aboutme-container {
+        width: 75% !important;
+        text-align: center;
+    }
+
     .navbar-container {
         justify-content: space-around !important;
     }
@@ -238,6 +244,7 @@ footer {
 
     .about-me-img {
         width: 100px !important;
+        height: 150px;
     }
 }
 
@@ -271,10 +278,6 @@ footer {
 
     .img-text {
         left: 5px;
-    }
-
-    .about-me-img {
-        width: 80px !important;
     }
 
     .aboutme-text {

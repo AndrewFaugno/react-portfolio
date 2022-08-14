@@ -27,7 +27,7 @@ function App() {
             <div>
                 <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </div>
-            <div className="pb-5">
+            <div className="pb-5 mb-5">
                 {renderPage()}
             </div>
             <Footer />
