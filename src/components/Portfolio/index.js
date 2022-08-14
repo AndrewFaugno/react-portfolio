@@ -58,12 +58,14 @@ function Portfolio() {
                     <div className="desc-container">
                         <h4 className="desc-text">{project.description}</h4>
                     </div>
-                    <img 
-                    src={require(`../../assets/projects/${project.imageName}.PNG`)} 
-                    className='project-img'
-                    alt={`Front page of ${project.name} website`}
-                    key={project.name} 
-                    />
+                    <div className="pimg-container">
+                        <img 
+                        src={require(`../../assets/projects/${project.imageName}.PNG`)} 
+                        className='project-img'
+                        alt={`Front page of ${project.name} website`}
+                        key={project.name} 
+                        />
+                    </div>
                 </div>
             ))}
             </div>

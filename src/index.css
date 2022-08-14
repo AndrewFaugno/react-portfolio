@@ -14,7 +14,7 @@
 }
 
 header {
-    height: 30vh;
+    height: 28vh;
     position: relative;
     background-image: url('./assets/images/backdrop.jpg');
     background-size: cover;
@@ -76,7 +76,8 @@ footer {
 }
 
 .active-nav {
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
+    background-color: #2f4473;
 }
 
 .margin-top {
@@ -84,12 +85,17 @@ footer {
 }
 
 .about-me-img {
-    width: 250px !important;
+    width: 150px !important;
 }
 
 .aboutme-text {
-    font-size: 1.3rem;
-    line-height: 45px;
+    font-size: 1.2rem;
+    line-height: 38px;
+}
+
+.pimg-container {
+    background-color: var(--grey);
+    border-radius: 25px;
 }
 
 .project-img {
@@ -150,10 +156,9 @@ footer {
 }
 
 .img-wrap:hover .project-img {
-    opacity: .1;
-    background-color: #F7F7F2;
-    border: 5px solid #A3333D;
+    opacity: .5;
     transition: .5s ease;
+    filter: brightness(25%);
 }
 
 .img-text a:hover {
@@ -178,8 +183,13 @@ footer {
         justify-content: space-around !important;
     }
 
+    .aboutme-text {
+        font-size: 1.6rem;
+        line-height: 55px;
+    }
+
     .about-me-img {
-        width: 150px !important;
+        width: 100px !important;
     }
 }
 
@@ -202,5 +212,26 @@ footer {
     }
 }
 
+@media screen and (max-width: 580px) {
+    .navbar {
+        font-size: 3.75vw;
+    }
 
+    .project-img {
+        width: 90vw;
+    }
+
+    .img-text {
+        left: 5px;
+    }
+
+    .about-me-img {
+        width: 80px !important;
+    }
+
+    .aboutme-text {
+        font-size: 1rem;
+        line-height: 45px;
+    }
+}
 
