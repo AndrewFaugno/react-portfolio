@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -8,6 +8,10 @@ import Footer from './components/Footer'
 
 function App() {
     const [currentPage, setCurrentPage] = useState("About");
+
+    useEffect(() => {
+        document.title = currentPage;
+    });
 
     const renderPage = () => {
         switch (currentPage) {
