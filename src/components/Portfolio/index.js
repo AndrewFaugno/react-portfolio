@@ -45,18 +45,18 @@ function Portfolio() {
     ];
 
     return (
-        <div className="mt-4 mb-5 container">
-            <div className="row">
+        <div className="mt-5 mb-5 container quicksand">
+            <div className="row ">
             {projects.map((project, i) => (
                 <div key={i} className="m-auto pb-4 img-wrap">
-                    <div className="img-text d-flex align-middle">
-                        <a href={project.websiteLink} target="_blank" className="pr-3 pt-3">{project.name}</a>
+                    <div className="img-text d-flex">
+                        <a href={project.websiteLink} target="_blank" className="pr-3 pt-2 project-name">{project.name}</a>
                         <a href={project.githubLink} target="_blank">
                             <img src={require("../../assets/logos/GitHub-Mark-64px.png")} alt="github logo" />
                         </a>
+                    </div>
                     <div className="desc-container">
                         <h4 className="desc-text">{project.description}</h4>
-                    </div>
                     </div>
                     <img 
                     src={require(`../../assets/projects/${project.imageName}.PNG`)} 

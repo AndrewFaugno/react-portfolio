@@ -29,7 +29,7 @@ body {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 70px
+    margin-bottom: 100px
 }
 
 .dynapuff {
@@ -93,8 +93,8 @@ footer {
 }
 
 .project-img {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 550px;
     border-radius: 25px;
     opacity: 1;
     transition: .5s ease;
@@ -106,25 +106,44 @@ footer {
 
 .img-text a {
     text-decoration: none !important;
-    color: var(--powder);
+    color:  var(--powder);
+    filter: brightness(70%);
     font-weight: bold;
     font-size: large;
 }
 
-.desc-container {
-    padding-top: 200px;
+.img-text img {
+    width: 90px;
+    filter: brightness(250%);
 }
 
-.img-text {
+.desc-container {
     position: absolute;
-    padding-left: 20px;
-    padding-top: 20px;
+    bottom: 60px;
+    right: 60px;
+}
+
+.desc-text {
+    font-size: 40px !important;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visbility .2s;
 }
 
-.img-wrap:hover .img-text {
+.project-name {
+    font-size: 35px !important; 
+}
+
+.img-text {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visbility .2s;
+}
+
+.img-wrap:hover .img-text, .img-wrap:hover .desc-text{
     visibility: visible;
     opacity: 1;
     z-index: 999;
@@ -137,9 +156,26 @@ footer {
     transition: .5s ease;
 }
 
+.img-text a:hover {
+    filter: brightness(200%);
+    transition: .3s ease !important; 
+}
+
+.img-text img:hover {
+    filter: brightness(0%);
+}
+
 @media screen and (max-width: 980px) {
     header {
         height: 225px;
+    }
+
+    .navbar {
+        font-size: 2.5vw;
+    }
+
+    .navbar-container {
+        justify-content: space-around !important;
     }
 }
 
