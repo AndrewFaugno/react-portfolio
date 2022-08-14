@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe5aa546.css",
-    "main.js": "/static/js/main.2598b472.js",
-    "static/media/photo-port.PNG": "/static/media/photo-port.4591cbdbed07478cd3c0.PNG",
-    "static/media/runbuddy.PNG": "/static/media/runbuddy.3c6906a8027d7e39f919.PNG",
-    "static/media/spotifynow.PNG": "/static/media/spotifynow.f1d1bc670e4fc7b1eabc.PNG",
-    "static/media/budget-tracker.PNG": "/static/media/budget-tracker.30782a205a7a161ae627.PNG",
-    "static/media/vector-bg.jpg": "/static/media/vector-bg.5fedfb41c898e57d1541.jpg",
-    "static/media/skydive-profile.JPG": "/static/media/skydive-profile.5718cc7b39f1a3043010.JPG",
-    "static/media/backdrop.jpg": "/static/media/backdrop.9bda1a83a5c9d1cade12.jpg",
-    "static/media/weatherdashboard.PNG": "/static/media/weatherdashboard.ea71e2eea0b3d5a7743b.PNG",
-    "static/media/techblog.PNG": "/static/media/techblog.dfdf86a42a8c82a8af2f.PNG",
-    "index.html": "/index.html",
-    "main.fe5aa546.css.map": "/static/css/main.fe5aa546.css.map",
-    "main.2598b472.js.map": "/static/js/main.2598b472.js.map"
+    "main.css": "/photo-port/static/css/main.09f34879.css",
+    "main.js": "/photo-port/static/js/main.754d7a15.js",
+    "static/media/photo-port.PNG": "/photo-port/static/media/photo-port.4591cbdbed07478cd3c0.PNG",
+    "static/media/runbuddy.PNG": "/photo-port/static/media/runbuddy.3c6906a8027d7e39f919.PNG",
+    "static/media/spotifynow.PNG": "/photo-port/static/media/spotifynow.f1d1bc670e4fc7b1eabc.PNG",
+    "static/media/budget-tracker.PNG": "/photo-port/static/media/budget-tracker.30782a205a7a161ae627.PNG",
+    "static/media/vector-bg.jpg": "/photo-port/static/media/vector-bg.5fedfb41c898e57d1541.jpg",
+    "static/media/skydive-profile.JPG": "/photo-port/static/media/skydive-profile.5718cc7b39f1a3043010.JPG",
+    "static/media/backdrop.jpg": "/photo-port/static/media/backdrop.9bda1a83a5c9d1cade12.jpg",
+    "static/media/weatherdashboard.PNG": "/photo-port/static/media/weatherdashboard.ea71e2eea0b3d5a7743b.PNG",
+    "static/media/techblog.PNG": "/photo-port/static/media/techblog.dfdf86a42a8c82a8af2f.PNG",
+    "index.html": "/photo-port/index.html",
+    "main.09f34879.css.map": "/photo-port/static/css/main.09f34879.css.map",
+    "main.754d7a15.js.map": "/photo-port/static/js/main.754d7a15.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe5aa546.css",
-    "static/js/main.2598b472.js"
+    "static/css/main.09f34879.css",
+    "static/js/main.754d7a15.js"
   ]
 }
