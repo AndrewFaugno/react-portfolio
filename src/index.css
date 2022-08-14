@@ -54,6 +54,16 @@ footer {
     right: 0;
 }
 
+.resume {
+    text-decoration: none !important;
+    color: var(--powder) !important;
+    filter: brightness(65%);
+}
+
+.resume-container a:hover {
+    filter: brightness(200%) !important;
+}
+
 .navbar-container {
     position: absolute;
     bottom: 0;
@@ -71,13 +81,13 @@ footer {
 }
 
 .navbar-container a:hover {
-    color:  #c2c2bc !important;
+    background-color: #335190;
+    filter: brightness(150%);
     transition: .3s ease !important;
 }
 
 .active-nav {
-    /* background-color: var(--grey); */
-    background-color: #2f4473;
+    background-color: #335190;
 }
 
 .margin-top {
@@ -94,7 +104,7 @@ footer {
 }
 
 .pimg-container {
-    background-color: var(--grey);
+    background-color: #24365e;
     border-radius: 25px;
 }
 
@@ -114,6 +124,7 @@ footer {
     text-decoration: none !important;
     color:  var(--powder);
     filter: brightness(70%);
+    transition: .2s ease;
     font-weight: bold;
     font-size: large;
 }
@@ -121,19 +132,21 @@ footer {
 .img-text img {
     width: 90px;
     filter: brightness(250%);
+    transition: .2s ease;
 }
 
 .desc-container {
     position: absolute;
     bottom: 60px;
     right: 60px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visbility .2s;
 }
 
 .desc-text {
     font-size: 40px !important;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visbility .2s;
+    font-weight: bold;
 }
 
 .project-name {
@@ -146,10 +159,10 @@ footer {
     left: 30px;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .2s, visbility .2s;
+    transition: .3s ease;
 }
 
-.img-wrap:hover .img-text, .img-wrap:hover .desc-text{
+.img-wrap:hover .img-text, .img-wrap:hover .desc-container{
     visibility: visible;
     opacity: 1;
     z-index: 999;
@@ -161,13 +174,14 @@ footer {
     filter: brightness(25%);
 }
 
-.img-text a:hover {
-    filter: brightness(200%);
-    transition: .3s ease !important; 
+.project-name:hover {
+    filter: brightness(250%);
+    transition: .2s ease; 
 }
 
 .img-text img:hover {
     filter: brightness(0%);
+    transition: .2s ease;
 }
 
 @media screen and (max-width: 980px) {

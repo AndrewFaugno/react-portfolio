@@ -2,7 +2,7 @@ function Resume() {
     return (
         <div className="w-75 text-left mx-auto mt-5 quicksand">
             <h1 className="font-weight-bold dynapuff">Resume</h1>
-            <h4 className="py-4">Download my <a href="#Resume">resume</a></h4>
+            <h4 className="py-4 resume-container">Download my <a href="#Resume" className="resume">resume</a></h4>
             <h3 className="dynapuff">Front-end Proficiencies:</h3>
             <ul>
                 <li>HTML</li>

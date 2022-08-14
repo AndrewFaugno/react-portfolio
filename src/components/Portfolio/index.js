@@ -52,7 +52,10 @@ function Portfolio() {
                     <div className="img-text d-flex">
                         <a href={project.websiteLink} target="_blank" className="pr-3 pt-2 project-name">{project.name}</a>
                         <a href={project.githubLink} target="_blank">
-                            <img src={require("../../assets/logos/GitHub-Mark-64px.png")} alt="github logo" />
+                            <img 
+                            src={require("../../assets/logos/GitHub-Mark-64px.png")} 
+                            alt="github logo" 
+                            />
                         </a>
                     </div>
                     <div className="desc-container">
