@@ -177,6 +177,10 @@ footer {
     .navbar-container {
         justify-content: space-around !important;
     }
+
+    .about-me-img {
+        width: 150px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -190,6 +194,11 @@ footer {
 
     .navbar {
         font-size: 3vw;
+    }
+
+    .project-img {
+        width: 500px;
+        height: 400px;
     }
 }
 
