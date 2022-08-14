@@ -2,7 +2,7 @@
   ![](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  This is a portfolio made from using react. It includes a about me, portfolio of previous projects, contact, and resume pages. <br>
+  This is a portfolio made from using react. It includes a about me, portfolio of previous projects, contact, and resume pages. <br> <br>
   <img width="600" alt="Screen Shot 2022-08-14 at 4 21 14 AM" src="https://user-images.githubusercontent.com/93367297/184528617-e4fe9e3d-684e-44f8-a1b0-595f5ac7d4c9.png">
 
   ## Table of Contents
