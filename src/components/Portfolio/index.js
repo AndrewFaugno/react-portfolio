@@ -36,11 +36,11 @@ function Portfolio() {
             imageName: "weatherdashboard",
         },
         {
-            name: "Photo Port",
-            githubLink: "https://github.com/AndrewFaugno/photo-port",
-            websiteLink: "https://andrewfaugno.github.io/photo-port/",
-            description: "REACT",
-            imageName: "photo-port",
+            name: "Import Export",
+            githubLink: "https://github.com/AndrewFaugno/import-export",
+            websiteLink: "https://import-export-andrewfaugno.herokuapp.com/",
+            description: "MERN APOLLO",
+            imageName: "import-export",
         },
     ];
 
